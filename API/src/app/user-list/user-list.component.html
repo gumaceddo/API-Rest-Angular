@@ -1,0 +1,19 @@
+<!-- <button id="btn1" (click)="btn1Click()">1 User</button>
+<button id="btnUsers" (click)="btnUsersClick()">Users</button> -->
+
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Company Name</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.company.name}}</td>
+    </tr>
+</table>

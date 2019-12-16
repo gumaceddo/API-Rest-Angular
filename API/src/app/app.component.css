@@ -1,0 +1,10 @@
+.edit-link {
+  background: rgb(12, 11, 11);
+  font: 18pt;
+  color: rgb(241, 238, 238);
+  text-decoration: none;
+}
+.edit-link, a:visited{
+    text-decoration: none;
+}
+
